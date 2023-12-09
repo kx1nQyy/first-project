@@ -1,0 +1,62 @@
+/*
+
+css-правило
+
+селектор {
+    свойство-1: значение-1;
+    свойство-2: значение-2;
+}
+
+виды css-селкторов:
+
+простые
+1. по тегу
+2. по классу
+3. по идентификатору
+4. универсальный
+
+комбинированные
+5. контекстный
+6. дочерний
+7. сестренский (+)
+8. сестренский (~)
+
+*/
+
+body {
+    background-color: lightblue !important;
+}
+
+h1 {
+    background-color: #ffe5ec;
+}
+
+.test-1 {
+    background-color: #ffc2d1;
+}
+
+#test-1 {
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: #ffb3c6;
+}
+
+* {
+    /* border: 1px solid #000; */
+}
+
+.test-2 li {
+    background-color: #ff8fab;
+}
+
+.test-3 > p {
+    background-color: #fb6f92;
+}
+
+div + h4 {
+    background-color: #f4e409;
+}
+
+.test-4 ~ h4 {
+    background-color: #2274a5;
+}
