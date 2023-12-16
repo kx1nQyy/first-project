@@ -1,0 +1,40 @@
+/*
+
+display-block:
+100% ширины род. элем. - да
+работают размеры - да
+работают отступы - да
+
+inline-block:
+100% ширины род. элем. - нет
+работают размеры - да
+работают отступы - да
+
+inline:
+100% ширины род. элем. - нет
+работают размеры - нет
+работают отступы - нет
+
+*/
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+div:not(#forest-ext-shadow-host) {
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
