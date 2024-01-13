@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: lightslategray;
+}
+
+.box, .box2, .box3, .box4 {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+}
+
+.box:nth-child(1) {
+    align-self: flex-start;
+}
+.box:nth-child(2) {
+    align-self: flex-start;
+}
+.box:nth-child(3) {
+    margin-right: auto;
+}

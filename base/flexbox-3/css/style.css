@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+
+    /* многострочность flex-контейнера (nowrap) */
+    flex-wrap: wrap;
+
+    margin-top: 75px;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px dashed #000;
+    background-color: #fff;
+}
+
+.card:not(:nth-child(4n)) {
+    margin-right: 50px;
+}

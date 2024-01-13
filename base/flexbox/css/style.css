@@ -1,0 +1,46 @@
+body {
+    /* делает элемент flex-контейнером */
+    display: flex;
+
+    /* направление основной оси (row) */
+    flex-direction: column;
+    
+    /* распределение элементов по основной оси (flex-start) */
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: flex-start;
+    
+    /* распределение элементов по поперечной оси (stretch) */
+    align-items: stretch;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    
+    margin: 0;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    border: 1px solid #000;
+}
+
+.box:nth-child(1) {
+    align-self: flex-end;
+    background-color: #a3b18a;
+}
+
+.box:nth-child(2) {
+    align-self: ;
+    background-color: #588157;
+}
+
+.box:nth-child(3) {
+    align-self: flex-start;
+    background-color: #3a5a40;
+}
